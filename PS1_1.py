@@ -6,8 +6,6 @@ Created on Fri Oct  9 19:48:44 2026
 """
 
 import random
-
-
 def Print_values(a, b, c):
     if a > b:
         if b > c:
@@ -28,10 +26,8 @@ def Print_values(a, b, c):
 a = random.randint(0, 100)
 b = random.randint(0, 100)
 c = random.randint(0, 100)
-
 print("a =", a)
 print("b =", b)
 print("c =", c)
-
 print("Output:")
 Print_values(a, b, c)
