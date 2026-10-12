@@ -14,5 +14,5 @@ def Pascal_triangle(k):
         new_row.append(1)
         row = new_row
     print(row)
-Pascal_triangle(10)
-Pascal_triangle(20)
+Pascal_triangle(100)
+Pascal_triangle(200)
